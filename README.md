@@ -21,7 +21,7 @@ The individual switching-patterns can be read from the following table:
 |4|0|0|0|1|0|1|
 
 ## Reading the hall-sensors
-To detect the position of the rotor, hall-sensors are applied on the stator, connected to a small decoder-IC. Two signals can be measured on the outputs of this Hall-signal IC: on each rising edge of signal one, the rotor is at position 1, on rising edge of signal 2 the rotor reaches position 2. Position 3 is on the falling edge of signal 1 and falling edge of signal 2 marks the position 4:
+To detect the position of the rotor, hall-sensors are applied on the stator, connected to a small decoder-IC. Two signals can be measured on the outputs of this Hall-signal IC: on each falling edge of signal one (red), the rotor is at position 1, on rising edge of signal 2 (blue) the rotor reaches position 2. Position 3 is on the rising edge of signal 1 and falling edge of signal 2 marks the position 4:
 
 ![HallSignals](Documentation/Hallsignals.jpg)
 
