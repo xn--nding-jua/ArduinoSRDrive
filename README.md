@@ -14,7 +14,7 @@ There are several possible options to control the SR-drive. A very semiconductor
 The individual switching-patterns can be read from the following table:
 
 |State|S1|S2|S3|S4|S5|S6|
-|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|
 |1|1|0|0|0|1|0|
 |2|0|1|0|0|0|1|
 |3|0|0|1|0|1|0|
@@ -43,8 +43,5 @@ You need nine connections between the Arduino Leonardo and the Thermomix TM31 PC
 ## Tests
 With this small piece of code it is possible to control a full-featured motor with control over speed and left/right-rotation. Have a look on the results by your own on the following video:
 
-<video width="800" height="450" controls>
-  <source src="https://chrisdevblog.com/content/videos/20210629_174150.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+[![Watch the video](Documentation/Test.jpg)](https://chrisdevblog.com/content/videos/20210629_174150.mp4)
 
