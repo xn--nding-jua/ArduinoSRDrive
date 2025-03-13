@@ -25,6 +25,12 @@ To detect the position of the rotor, hall-sensors are applied on the stator, con
 
 ![HallSignals](Documentation/Hallsignals.jpg)
 
+These signals could be processed to a much more detailed reconstruction of the rotor-position: by summing both signals, we will get a rough sine-wave (green curve in next diagram) and by applying a so called Second-Order-Generalized-Integrator (SOGI), we can create a phase-alligned signal which is related to the rotor-position:
+
+![Filtered HallSignals](Documentation/filtered_hallsignals.jpg)
+
+But for this project the information about the edges of the both hall-signals are more than enough to detect the current position of the rotor.
+
 ## Hardware-connections
 You need nine connections between the Arduino Leonardo and the Thermomix TM31 PCB:
 
